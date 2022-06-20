@@ -6,7 +6,7 @@ In this project, we will use machine learning models to investigate the correlat
 
 ## Install
 
-- **Running environment: **Google Colaboratory
+- **Running environment:** Google Colaboratory
 
   If you are also using Google colaboratory, then the following installation packages can be installed without it, as they are already pre-installed on colab.
 
