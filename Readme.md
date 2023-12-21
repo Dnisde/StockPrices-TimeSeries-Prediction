@@ -8,7 +8,7 @@ In this project, we will use machine learning models to investigate the correlat
 
 - **Running environment:** Google Colaboratory
 
-  If you are also using Google colaboratory, then the following installation packages can be installed without it, as they are already pre-installed on colab.
+  If you are also using Google Colaboratory, then the following installation packages can be installed without it, as they are already pre-installed on Colab.
 
   If not, the following modules need to be pre-installed
 
@@ -24,18 +24,18 @@ In this project, we will use machine learning models to investigate the correlat
 
   - jqdatasdk
 
-     - Make sure to update and install the newest version of JoinQuant Local SDK on your computer environment or using Anaconda prompt and type: 
+     - Make sure to update and install the newest version of JoinQuant Local SDK on your computer environment or using the Anaconda prompt and type: 
 
        `sudo pip3 install jqdatasdk` 
 
       - Details: [Install JQData on your local computer](https://www.joinquant.com/view/community/detail/cdf86c624992fc86ed51d920ef8c637b)
 
-    In addition, JointQuant requires an account in advance in order to download the relevant stock factor data.**you should apply for an account at JointQuant to allow you log in and access the authentication of the API.**
+    In addition, JointQuant requires an account in advance in order to download the relevant stock factor data.**you should apply for an account at JointQuant to allow you login and access the authentication of the API.**
 
     - Guideline: [Apply for a JoinQuant account](https://www.joinquant.com/default/index/sdk?utm_campaign=JQData%E7%94%B3%E8%AF%B7&utm_medium=%E7%BD%91%E9%A1%B5&utm_source=%E8%81%9A%E5%AE%BD&gio_link_id=xRxqAjP5) 
 
 
-### Finally, Congratulation! You are ready to go with the setup of testing the program.
+### Finally, Congratulations! You are ready to go with the setup of testing the program.
 
 ## Usage
 
@@ -59,7 +59,7 @@ Note: It's okay if you don't have an account, the data needed for the project ha
 
 - Open `Feature_Select_Lasso.ipynb`
 
-#### Using Diabetes dataset as the testing part
+#### Using the Diabetes dataset as the testing part
 
 Simply run the blocks in sequence and the results will be displayed step by step.
 
@@ -82,7 +82,7 @@ Simply run the blocks in sequence and the results will be displayed step by step
   - Fill the file_path with the absolute path of file *Amazon*, which is under /DataSource.
   - Run the blocks in sequence.
 
-  Note: In SVM and KRR part, the model parameters have been tuned and pre-set, if you want to tune the parameters by yourself, you can change the `grid_svr` and `grid_krr` to `GridSearchCV`， and the range of tuned parameters can be changed in C_svr, gamma_svr, alpha_krr and gamma_krr. 
+  Note: In SVM and KRR parts, the model parameters have been tuned and pre-set, if you want to tune the parameters by yourself, you can change the `grid_svr` and `grid_krr` to `GridSearchCV`， and the range of tuned parameters can be changed in C_svr, gamma_svr, alpha_krr and gamma_krr. 
 
   ```python
   # SVM
